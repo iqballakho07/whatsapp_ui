@@ -1,51 +1,101 @@
-WhatsApp UI Clone (Flutter)
+# WhatsApp UI Clone – Flutter
 
-Project Description
-This project is a Flutter-based UI clone of WhatsApp. It replicates the main chat screen interface including chat list, profile avatars, timestamps, and bottom navigation bar. The purpose of this project is to practice Flutter UI development and improve layout structuring, widget usage, and design replication skills.
+A pixel-perfect WhatsApp home screen UI clone built using Flutter. This project is created for learning and practicing Flutter UI development by replicating real-world app interfaces.
 
-Features
-- WhatsApp-style chat list UI
-- Profile avatars for each chat
-- Message preview under contact name
-- Timestamp aligned to the right
+---
+
+## Screenshots
+
+| Home Screen |
+|-------------|
+| ![Home Screen](assets/images/whatsapp_ui.png) |
+
+---
+
+## Features
+
+- WhatsApp-style AppBar with green theme
+- Search bar with modern rounded design
+- Horizontal filter chips (All, Unread, Favourites, Groups)
+- Chat list with avatar, name, message preview, and time
 - Bottom navigation bar (Chats, Updates, Communities, Calls)
-- Floating action button for new chat
-- Clean and responsive UI layout
+- Floating Action Button for new chat
+- Clean and responsive UI
 
-Tech Stack
-- Flutter
-- Dart
+---
 
-Project Structure
-- main.dart: Entry point of the application
-- Home screen UI built using StatefulWidget
-- ListView for chat items
-- Custom widgets for chat tiles
+## Colors Used
 
-Installation & Setup
-1. Clone the repository:
-   git clone https://github.com/your-username/whatsapp-ui-clone.git
+- Primary Green: `#00A884`
+- Search Background: `#F0F2F5`
+- Secondary Text: `#8696A0`
+- Active Chip Background: `#D9FDD3`
+- Border Color: `#D1D7DB`
+- Background: `#FFFFFF`
 
-2. Navigate to project directory:
-   cd whatsapp-ui-clone
+---
 
-3. Install dependencies:
-   flutter pub get
+## Project Structure
 
-4. Run the application:
-   flutter run
+```
+lib/
+├── main.dart
+├── screens/
+│   └── home_screen.dart
+├── widgets/
+│   ├── chat_tile.dart
+│   ├── filter_chips.dart
+│   └── bottom_nav_bar.dart
+└── models/
+    └── chat_model.dart
+```
 
-Output Screenshot
+---
 
-Below is the output of the WhatsApp UI clone:
+## Getting Started
 
-![App Screenshot](assets/images/whatsapp_ui.jpeg)
+Clone the repository:
 
-Future Improvements
-- Add chat screen with message bubbles
-- Implement dark mode
-- Add status and call screens
-- Improve responsiveness for tablets
+```bash
+git clone https://github.com/your-username/whatsapp-ui-clone.git
+```
 
-Author
-Muhammad Iqbal
+Navigate to project directory:
+
+```bash
+cd whatsapp-ui-clone
+```
+
+Install dependencies:
+
+```bash
+flutter pub get
+```
+
+Run the app:
+
+```bash
+flutter run
+```
+
+---
+
+## Purpose
+
+- Flutter UI practice
+- Learning widget-based layout design
+- Improving frontend development skills
+- Cloning real-world application interfaces
+
+---
+
+## Disclaimer
+
+This project is created for educational purposes only. WhatsApp is a trademark of Meta Platforms, Inc.
+
+---
+
+## Author
+
+Muhammad Iqbal  
+GitHub: https://github.com/iqballakho07
