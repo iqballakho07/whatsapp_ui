@@ -29,14 +29,11 @@ class _WhatsappState extends State<Whatsapp> {
     "Sarang",
     "Anna",
     "Ahmed",
-    "Mushtaque",
     "Alexa",
     "Iqbal2",
     "sarang2",
     "Mia",
-    "MB",
-    "sher",
-    "saima",
+    "Crystalia",
     "Ali",
   ];
 
