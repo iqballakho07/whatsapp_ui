@@ -1,16 +1,51 @@
-# whatsapp_ui
+WhatsApp UI Clone (Flutter)
 
-A new Flutter project.
+Project Description
+This project is a Flutter-based UI clone of WhatsApp. It replicates the main chat screen interface including chat list, profile avatars, timestamps, and bottom navigation bar. The purpose of this project is to practice Flutter UI development and improve layout structuring, widget usage, and design replication skills.
 
-## Getting Started
+Features
+- WhatsApp-style chat list UI
+- Profile avatars for each chat
+- Message preview under contact name
+- Timestamp aligned to the right
+- Bottom navigation bar (Chats, Updates, Communities, Calls)
+- Floating action button for new chat
+- Clean and responsive UI layout
 
-This project is a starting point for a Flutter application.
+Tech Stack
+- Flutter
+- Dart
 
-A few resources to get you started if this is your first Flutter project:
+Project Structure
+- main.dart: Entry point of the application
+- Home screen UI built using StatefulWidget
+- ListView for chat items
+- Custom widgets for chat tiles
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Installation & Setup
+1. Clone the repository:
+   git clone https://github.com/your-username/whatsapp-ui-clone.git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Navigate to project directory:
+   cd whatsapp-ui-clone
+
+3. Install dependencies:
+   flutter pub get
+
+4. Run the application:
+   flutter run
+
+Output Screenshot
+
+Below is the output of the WhatsApp UI clone:
+
+![App Screenshot](assets/images/whatsapp_ui.jpeg)
+
+Future Improvements
+- Add chat screen with message bubbles
+- Implement dark mode
+- Add status and call screens
+- Improve responsiveness for tablets
+
+Author
+Muhammad Iqbal
