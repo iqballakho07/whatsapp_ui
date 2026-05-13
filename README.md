@@ -8,7 +8,7 @@ A pixel-perfect WhatsApp home screen UI clone built using Flutter. This project 
 
 | Home Screen |
 |-------------|
-| ![Home Screen](assets/images/whatsapp_ui.jpeg) |
+<img src="assets/images/whatsapp_ui.jpeg" width="200" height="400"/>
 
 ---
 
